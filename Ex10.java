@@ -8,8 +8,8 @@ public class Test
 
 	class.forName("com.mysql.jdbc.Driver");
 
-	con=DriverManager.getConnection("jdbc:mysql://localhost:3307/Karthi","root","");
-	ps=con.prepareStatement("insert into students values(101,'karthi,'BE(cse)',7.25)");
+	con=DriverManager.getConnection("jdbc:mysql://localhost:3307/Krithick","root","");
+	ps=con.prepareStatement("insert into students values(101,'Krithick roshan,'BE(cse)',7.25)");
 	ps.executeUpdate();
 	ps.close();
 	System.out.println("Student Record Inserted");
